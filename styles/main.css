@@ -16,7 +16,7 @@ body{
     position: fixed;
     top: 0;
     left: 0;
-    width: 225px;
+    width: 275px;
     height: 100%;
     padding: 20px 0;
     transition: all 0.5s ease;
@@ -29,7 +29,7 @@ body{
 
 .wrapper .sidebar .profile img{
     display: block;
-    width: 200px;
+    width: 250px;
     height: 120px;
     margin: 0 auto;
 }
@@ -75,8 +75,8 @@ body{
 }
 
 .wrapper .section{
-    width: calc(100% - 225px);
-    margin-left: 225px;
+    width: calc(100% - 275px);
+    margin-left: 275px;
     transition: all 0.5s ease;
 }
 
@@ -95,7 +95,7 @@ body{
     text-align: right;
     font-weight: 900;
     font-size: 24px;
-    display: inline-flex;
+    display: inline;
 }
 
 .wrapper .section .top_navbar p{
@@ -122,7 +122,7 @@ body{
 }
 
 body.active .wrapper .sidebar{
-    left: -225px;
+    left: -275px;
 }
 
 body.active .wrapper .section{
@@ -153,4 +153,10 @@ body.active .wrapper .section .top_navbar ul.navicons li {
     .wrapper .section .top_navbar ul li a{
         display: none;
     }
+}
+
+.wrapper .section .blogger{
+    display: flex;
+    max-width: 100%;
+    max-height: 100%;
 }
