@@ -11,9 +11,12 @@
    - embedded blogspot into website for ease of use
    - added README.md (this file) to log changes for myself and the team
 
+08/21/23
+   - created about me page layout with colors, formatting, and placement text
+   - created a carousel for introductions 
 
 <b>Next Steps/Current Plans</b>
    - make a two column layout for a contact page: one side has a email "send a message" box, the other has linktr.ee links and our instagram
-   - make an about me page outline with our mission statement and a short introduction for each team member
-   - start a short list of other mental health resources for reference
+   - finish about me page outline with our mission statement and a short introduction for each team member
+   - start a short list of other mental health resources for references
 
