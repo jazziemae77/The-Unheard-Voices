@@ -1,5 +1,7 @@
 # The-Unheard-Voices
 
+View the site in progress at https://the-unheard-voices-1.jazminejordan.repl.co/
+
 <b>Update Log and Info</b>
 
 08/13/23
@@ -13,7 +15,13 @@
 
 08/21/23
    - created about me page layout with colors, formatting, and placement text
-   - created a carousel for introductions 
+   - created a carousel for introductions
+
+08/21/23
+   - changed about us carousel to a card layout
+   - added a testing page for non-permanent changes
+   - fixed contact buttons, should link to each team member's email now
+   - added introductions and placeholders
 
 <b>Next Steps/Current Plans</b>
    - make a two column layout for a contact page: one side has a email "send a message" box, the other has linktr.ee links and our instagram
