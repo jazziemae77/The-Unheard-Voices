@@ -22,6 +22,7 @@ View the site in progress at https://the-unheard-voices-1.jazminejordan.repl.co/
    - added a testing page for non-permanent changes
    - fixed contact buttons, should link to each team member's email now
    - added introductions and placeholders
+   - created and embedded google form into contact page for messages
 
 <b>Next Steps/Current Plans</b>
    - make a two column layout for a contact page: one side has a email "send a message" box, the other has linktr.ee links and our instagram
