@@ -31,6 +31,7 @@ View the site in progress at https://the-unheard-voices-1.jazminejordan.repl.co/
 
 08/25/23
    - redesigned navbar and sidebar for smaller screens
+   - redesigned contact form
 
 <b>Next Steps/Current Plans</b>
    - finish two column layout for a contact page: add linktr.ee links and our instagram
