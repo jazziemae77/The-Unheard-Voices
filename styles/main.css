@@ -422,3 +422,9 @@ body.active .wrapper .section .top_navbar .hamburger a{
     max-height: 100%;
   }
 }
+
+@media screen and (max-width: 450px) {
+  .wrapper .section .top_navbar ul.navicons li {
+    display: none;
+  }
+}
