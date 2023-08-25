@@ -21,7 +21,7 @@ View the site in progress at https://the-unheard-voices-1.jazminejordan.repl.co/
    - changed about us carousel to a card layout
    - added a testing page for non-permanent changes
    - fixed contact buttons, should link to each team member's email now
-   - added introductions and placeholders
+   - added introductions, emails, photos, and placeholders
    - created and embedded google form into contact page for messages
 
 <b>Next Steps/Current Plans</b>
