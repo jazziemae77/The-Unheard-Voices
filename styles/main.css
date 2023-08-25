@@ -270,7 +270,7 @@ body.active .wrapper .section .top_navbar ul.navicons li {
   background-color: #6F5E53;
   color: white;
   line-height: 1.5;
-  padding: 8px;
+  padding: 12px;
 }
 
 /* Some left and right padding inside the container */
@@ -309,3 +309,9 @@ body.active .wrapper .section .top_navbar ul.navicons li {
   color: #00052E
 }
 
+.about-profile {
+  float: left;
+  width: 6.25em;
+  height: 25em;
+  object-fit: cover;
+}
