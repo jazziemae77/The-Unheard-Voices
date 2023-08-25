@@ -25,7 +25,7 @@ View the site in progress at https://the-unheard-voices-1.jazminejordan.repl.co/
    - created and embedded google form into contact page for messages
 
 <b>Next Steps/Current Plans</b>
-   - make a two column layout for a contact page: one side has a email "send a message" box, the other has linktr.ee links and our instagram
+   - finish two column layout for a contact page: add linktr.ee links and our instagram
    - finish about me page outline with our mission statement and a short introduction for each team member
    - start a short list of other mental health resources for references
 
