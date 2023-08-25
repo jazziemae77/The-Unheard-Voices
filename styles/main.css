@@ -34,11 +34,6 @@ body{
     margin: 0 auto;
 }
 
-.wrapper .sidebar .profile p{
-    color: rgb(206, 240, 253);
-    font-size: 14px;
-}
-
 .wrapper .sidebar ul li a{
     display: block;
     padding-top: 30px;
@@ -63,10 +58,12 @@ body{
     color: #00052e;
     background:white;
     border-right: 2px solid rgb(255, 255, 255);
+    transition: all 0.2s ease;
 }
 
 .wrapper .sidebar ul li a:hover .icon{
-    color: #00052e;
+  color: #00052e;
+  transition: all 0.2s ease;
 }
 
 .wrapper .sidebar ul li a:hover:before,
@@ -112,13 +109,15 @@ body{
 
 
 .wrapper .section .top_navbar .hamburger a{
-    font-size: 32px;
-    color: white;
-    padding-right: 20px;
+  font-size: 32px;
+  color: white;
+  padding-right: 20px;
+  transition: all 0.5s ease;
 }
 
 .wrapper .section .top_navbar .hamburger a:hover{
-    color: #777ca6;
+  color: #777ca6;
+  transition: all 0.2s ease;
 }
 
 body.active .wrapper .sidebar{
@@ -134,11 +133,17 @@ body.active .wrapper .section .top_navbar{
   height: 60px
 }
 
+body.active .wrapper .section .top_navbar .hamburger a:hover{
+  color: #777ca6;
+  transition: all 0.2s ease;
+}
+
 .wrapper .section .top_navbar ul.navicons li {
-    display: inline-block;
-    margin-right: 20px; 
-    margin-left: 20px;
-    font-size: 32px;
+  display: inline-block;
+  margin-right: 20px; 
+  margin-left: 20px;
+  font-size: 32px;
+  transition: all 0.5s ease;
 }
 
 body.active .wrapper .section .top_navbar ul.navicons li {
@@ -146,9 +151,30 @@ body.active .wrapper .section .top_navbar ul.navicons li {
 }
 
 .wrapper .section .top_navbar ul li a:hover{
-    color: #777ca6;
+  color: #777ca6;
+  transition: all 0.2s ease; 
 }
 
+.wrapper .section .top_navbar .navtext{
+  color: white;
+  padding-left: 0%;
+  text-align: right;
+  font-weight: 900;
+  font-size: 24px;
+  display: inline;
+}
+
+body.active .wrapper .section .top_navbar ul.navicons li {
+  margin-right: 40px; 
+  margin-left: 40px;
+  font-size: 24px;
+}
+
+body.active .wrapper .section .top_navbar .hamburger a{
+  font-size: 28px;
+  color: white;
+  padding-right: 40px;
+}
 
 .wrapper .section .blogger{
     display: flex;
@@ -156,26 +182,6 @@ body.active .wrapper .section .top_navbar ul.navicons li {
     max-height: 100%;
 }
 
-
-.nav-button {
-  font-size: 24px;
-  background-color: rgba(255, 255, 255, 0.8);
-  color: #333;
-  border: none;
-  border-radius: 50%;
-  padding: 10px;
-  cursor: pointer;
-  transition: background-color 0.3s, color 0.3s;
-  position: absolute;
-  top: 50%;
-  transform: translateY(-50%);
-  z-index: 2; /* Ensure navigation icons appear above the content */
-}
-
-.nav-button:hover {
-  background-color: #333;
-  color: #fff;
-}
 
 .who-we-are {
   text-align: center;
@@ -259,7 +265,8 @@ body.active .wrapper .section .top_navbar ul.navicons li {
 
 .button:hover {
   background-color: white;
-  color: #00052E
+  color: #00052E;
+  transition: all 0.2s ease;
 }
 
 .about-profile {
@@ -275,7 +282,8 @@ body.active .wrapper .section .top_navbar ul.navicons li {
   padding: 16px;
 }
 
-/* Display the columns below each other instead of side by side on small screens */
+
+/* Media Responsiveness */
 @media screen and (max-width: 650px) {
   .column {
     width: 100%;
@@ -285,10 +293,132 @@ body.active .wrapper .section .top_navbar ul.navicons li {
     width: 100%;
     display: block;
   }
-  .wrapper .section .top_navbar ul li a{
-    display: none;
+  .wrapper .sidebar{
+    background: #339989 ;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 175px;
+    height: 100%;
+    padding: 15px 0;
+    transition: all 0.5s ease;
+  }
+  .wrapper .sidebar .profile{
+    margin-bottom: 15px;
+    text-align: center;
+  }
+  .wrapper .sidebar .profile img{
+    display: block;
+    width: 150px;
+    height: 72px;
+    margin: 0 auto;
+  }
+  .wrapper .sidebar ul li a{
+    display: block;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    padding-left: 15px;
+    padding-right: 5px;
+    border-bottom: 2px solid #ffffff;
+    border-top: 2px solid #ffffff;
+    color: rgb(241, 237, 237);
+    font-size: 16px;
+    position: relative;
+    font-weight: 700;
+  }
+  .wrapper .sidebar ul li a .icon{
+    color: #dee4ec;
+    width: 25px;
+    display: inline-block;
+  }
+  .wrapper .sidebar ul li a:hover{
+    color: #00052e;
+    background:white;
+    border-right: 2px solid rgb(255, 255, 255);
+    transition: all 0.2s ease;
+  }
+  .wrapper .sidebar ul li a:hover .icon{
+    color: #00052e;
+  }
+  .wrapper .sidebar ul li a:hover:before,
+  .wrapper .sidebar ul li a.active:before{
+    display: block;
+  }
+  .wrapper .section{
+    width: calc(100% - 175px);
+    margin-left: 175px;
+    transition: all 0.5s ease;
+  }
+  .wrapper .section .top_navbar{
+    background: #00052e;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    padding: 0 20px;
+    transition: all 0.5s ease;
   }
   .wrapper .section .top_navbar .navline{
+    color: white;
+    padding-left: 0%;
+    text-align: right;
+    font-weight: 900;
+    font-size: 18px;
+    display: inline;
+  }
+  .wrapper .section .top_navbar .navtext{
     display: none;
+  }
+  .wrapper .section .top_navbar ul li a{
+    display: inline-flex;
+    font-size: 24px;
+    color:white;
+  }  
+  .wrapper .section .top_navbar .hamburger a{
+    font-size: 24px;
+    color: white;
+    padding-right: 15px;
+    transition: all 0.5s ease;
+  }
+  .wrapper .section .top_navbar .hamburger a:hover{
+    color: #777ca6;  
+  }
+  body.active .wrapper .sidebar{
+    left: -175px;
+  }
+  body.active .wrapper .section{
+    margin-left: 0;
+    width: 100%;
+  }
+  body.active .wrapper .section .top_navbar{
+    height: 80px
+  }
+  .wrapper .section .top_navbar ul.navicons li {
+    display: inline-block;
+    margin-right: 10px; 
+    margin-left: 10px;
+    font-size: 24px;
+    transition: all 0.5s ease;
+  }
+  body.active .wrapper .section .top_navbar ul.navicons li {
+    margin-right: 22px; 
+    margin-left: 22px;
+    font-size: 24px;
+  }
+  body.active .wrapper .section .top_navbar .hamburger a{
+    font-size: 24px;
+    color: white;
+    padding-right: 22px;
+  }
+  body.active .wrapper .section .top_navbar .hamburger a:hover{
+    color: #777ca6;
+    transition: all 0.2s ease;
+  }
+  .wrapper .section .top_navbar ul li a:hover{
+    color: #777ca6;
+  }
+  .wrapper .section .blogger{
+    display: flex;
+    max-width: 100%;
+    max-height: 100%;
   }
 }

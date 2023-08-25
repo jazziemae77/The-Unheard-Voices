@@ -19,10 +19,18 @@ View the site in progress at https://the-unheard-voices-1.jazminejordan.repl.co/
 
 08/21/23
    - changed about us carousel to a card layout
+   - added introductions and placeholders
+   - created and embedded google form into contact page for messages
+
+08/24/23
    - added a testing page for non-permanent changes
    - fixed contact buttons, should link to each team member's email now
-   - added introductions, emails, photos, and placeholders
+   - added more introductions, emails, and photos
    - created and embedded google form into contact page for messages
+   - various media responsiveness changes
+
+08/25/23
+   - redesigned navbar and sidebar for smaller screens
 
 <b>Next Steps/Current Plans</b>
    - finish two column layout for a contact page: add linktr.ee links and our instagram
