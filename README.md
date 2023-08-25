@@ -6,7 +6,7 @@ View the site in progress at https://the-unheard-voices-1.jazminejordan.repl.co/
 
 08/13/23
    - created website with repl and github, uses HTML, CSS, and JS
-   - created sidebar and top nav bar templates with 6 plank pages
+   - created sidebar and top nav bar templates with 6 blank pages
 
 08/14/23
    - created and formatted blogspot site for TUV at https://theunheardvoicesorg.blogspot.com/
