@@ -34,8 +34,11 @@ View the site in progress at https://the-unheard-voices-1.jazminejordan.repl.co/
    - redesigned contact form
    - formatted outline for hotline resources
 
+08/26/23
+   - filled in links and information for two help hotlines
+
 <b>Next Steps/Current Plans</b>
-   - finish two column layout for a contact page: add linktr.ee links and our instagram
    - finish hotline resources page with numbers and links
+   - finish two column layout for a contact page: add linktr.ee links and our instagram
    - finish about me page outline with our mission statement and a short introduction for each team member
 
