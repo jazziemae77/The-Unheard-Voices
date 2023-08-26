@@ -32,9 +32,10 @@ View the site in progress at https://the-unheard-voices-1.jazminejordan.repl.co/
 08/25/23
    - redesigned navbar and sidebar for smaller screens
    - redesigned contact form
+   - formatted outline for hotline resources
 
 <b>Next Steps/Current Plans</b>
    - finish two column layout for a contact page: add linktr.ee links and our instagram
+   - finish hotline resources page with numbers and links
    - finish about me page outline with our mission statement and a short introduction for each team member
-   - start a short list of other mental health resources for references
 

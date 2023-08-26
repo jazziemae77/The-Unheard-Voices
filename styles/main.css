@@ -7,6 +7,10 @@
     font-family: "Source Code Pro", monospace;
 }
 
+html {
+  font-size: 16px; /* Set your desired base font size */
+}
+
 body{
     background: #e6dcc7;
 }
@@ -280,6 +284,48 @@ body.active .wrapper .section .top_navbar .hamburger a{
   float: left;
   width: 50%;
   padding: 16px;
+}
+
+.crisis-resources {
+  text-align: center;
+}
+
+.r-card {
+  display: block;
+  padding: 16px;
+  margin: 24px;
+  background-color: #c16553;
+  color: white;
+  border-radius: 25px;
+  line-height: 1.5;
+}
+
+.r-card .r-icons .item u {
+  text-decoration: underline;
+}
+
+.r-call-info {
+  padding-top: 10px;
+  padding-bottom: 16px;
+  font-weight: 700;
+}
+
+.r-icons {
+  display: flex;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.r-icons li {
+  flex: 1;
+  text-align: center;
+}
+
+.r-icons li a{
+  color:#00052E;
+  font-size: 16px;
+  font-weight: 900;
 }
 
 
