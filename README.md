@@ -36,6 +36,7 @@ View the site in progress at https://the-unheard-voices-1.jazminejordan.repl.co/
 
 08/26/23
    - filled in links and information for two help hotlines
+   - added a blogger api to format latest blog posts
 
 <b>Next Steps/Current Plans</b>
    - finish hotline resources page with numbers and links
