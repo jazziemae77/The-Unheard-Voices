@@ -237,9 +237,6 @@ body.active .wrapper .section .top_navbar .hamburger a{
 }
 
 /* Some left and right padding inside the container */
-.container {
-  padding: 0 16px;
-}
 
 /* Clear floats */
 .container::after, .row::after {
@@ -343,6 +340,14 @@ body.active .wrapper .section .top_navbar .hamburger a{
   text-decoration: underline;
 }
 
+.hero {
+  background-image: url('/../images/home-hero.png');
+  background-size: cover;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  height: 20 rem;
+}
 
 /* Media Responsiveness */
 @media screen and (max-width: 650px) {
