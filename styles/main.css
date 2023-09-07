@@ -192,9 +192,15 @@ body.active .wrapper .section .top_navbar .hamburger a{
   align-items: center;
   justify-content: center;
   position: relative; /* Needed for absolute positioning */
-  padding-top: 20px;
-  padding-bottom:20px;
+  padding-top: 25px;
+  padding-bottom: 25px;
+  padding-left: 15px;
+  padding-right: 15px;
   background-color: #E6DCC7;
+}
+
+.who-we-are p {
+  line-height: 1.3;
 }
 
 .what-we-do {
@@ -343,11 +349,47 @@ body.active .wrapper .section .top_navbar .hamburger a{
 .hero {
   background-image: url('/../images/home-hero.png');
   background-size: cover;
-  display: block;
+  display: flex;
   margin-left: auto;
   margin-right: auto;
-  height: 20 rem;
+  height: 40rem;
 }
+
+body.active .wrapper .section .h-container .hero {
+  height: 48rem;
+}
+
+.h-button-row {
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  position: relative; /* Needed for absolute positioning */
+  padding-bottom: 30px;
+  background-color: black;
+  color: white;
+  width: 100%;
+}
+
+.h-button {
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 16px;
+  margin: 36px;
+  color: black;
+  background-color: #e6dcc7;
+  text-align: center;
+  cursor: pointer;
+  width: 25%;
+  transition: 0.5s;
+  font-size: 26px;
+}
+
+.h-button:hover {
+  background-color: #c16553;
+  color: white
+}
+
 
 /* Media Responsiveness */
 @media screen and (max-width: 650px) {
@@ -440,7 +482,7 @@ body.active .wrapper .section .top_navbar .hamburger a{
     color:white;
   }  
   .wrapper .section .top_navbar .hamburger a{
-    font-size: 24px;
+    font-size: 22px;
     color: white;
     padding-right: 15px;
     transition: all 0.5s ease;
@@ -460,9 +502,9 @@ body.active .wrapper .section .top_navbar .hamburger a{
   }
   .wrapper .section .top_navbar ul.navicons li {
     display: inline-block;
-    margin-right: 10px; 
-    margin-left: 10px;
-    font-size: 24px;
+    margin-right: 9px; 
+    margin-left: 9px;
+    font-size: 22px;
     transition: all 0.5s ease;
   }
   body.active .wrapper .section .top_navbar ul.navicons li {
