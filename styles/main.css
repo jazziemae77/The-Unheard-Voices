@@ -347,7 +347,7 @@ body.active .wrapper .section .top_navbar .hamburger a{
 }
 
 .hero {
-  background-image: url('/../images/home-hero.png');
+  background-image: url(../images/home-hero.png);
   background-size: cover;
   display: flex;
   margin-left: auto;
